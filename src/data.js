@@ -1409,11 +1409,16 @@ id: "organiccucumbers",
 name: "Organic Cucumbers",
 img: "https://www.kroger.com/product/images/medium/front/0000000094062"
 },
-//  {
-// id: ID,
-// name: itemName,
-// img: image
-// },
+ {
+id: "bananas",
+name: "Bananas",
+img: "https://www.kroger.com/product/images/medium/front/0000000004011"
+},
+ {
+id: "organicbananas",
+name: "Organic Bananas",
+img: "https://www.kroger.com/product/images/medium/front/0000000004011"
+},
 //  {
 // id: ID,
 // name: itemName,
