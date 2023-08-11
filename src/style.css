@@ -13,8 +13,14 @@ i {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+    color: var(--sc-bg-color);
+}
+
 :root {
     --bg-color: rgb(33, 64, 154);
+    --delete-color: rgb(143, 30, 21);
     --amount-color: rgb(232, 125, 79);
     --border-color: lightgray;
     --cart-txt-color: black;
@@ -34,6 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: var(--bg-color);
     color: var(--sc-bg-color);
     padding: 25px 60px;
@@ -116,3 +123,66 @@ body {
 .bi-plus-circle-fill{
     color: var(--bg-color);
 }
+
+/**
+* ! style for label and home buttons
+**/
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;;
+}
+
+.HomeBtn, 
+.removeAll {
+    background-color: var(--bg-color);
+    color: var(--sc-bg-color);
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.removeAll {
+    background-color: var(--delete-color);
+}
+
+.bi-x-circle-fill {
+    color: var(--delete-color);
+    font-weight: bold;
+}
+
+/**
+* ! style for shopping-cart
+**/
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+/**
+* ! style for cart-item
+**/
+
+.cart-item {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+}
+
+.title-price-x {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price {
+    display: flex;
+    align-items: center;
+}
+
