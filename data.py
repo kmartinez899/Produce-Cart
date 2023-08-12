@@ -1,17 +1,17 @@
+# opens items.txt and reads file line by line
 file = open('items.txt', 'r')
 data = file.readlines()
 file.close()
 
-# contains item and its image
+# list that contains lists of the item name and its image
 info = []
+for i in range(len(data)):
+    info.append(data[i].strip().split("|"))
 
 id = []
 itemNames = []
 images = []
 
-
-for i in range(len(data)):
-    info.append(data[i].strip().split("|"))
 
 for j in range(len(info)):
     itemNames.append(info[j][0])
@@ -29,7 +29,11 @@ for i in range(len(itemNames)):
 #     product = " {\nid: "+f'"{id[i]}"'+ ",\nname: "+f'"{itemNames[i]}"' +",\nimg: "+f'"{images[i]}"'+" \n},"
 #     print(product)
 
-for i in range(134, 268):
+# for i in range(134, 268):
+#     product = " {\nid: "+f'"{id[i]}"'+ ",\nname: "+f'"{itemNames[i]}"' +",\nimg: "+f'"{images[i]}"'+" \n},"
+#     print(product)
+
+for i in range(269, 368):
     product = " {\nid: "+f'"{id[i]}"'+ ",\nname: "+f'"{itemNames[i]}"' +",\nimg: "+f'"{images[i]}"'+" \n},"
     print(product)
 
