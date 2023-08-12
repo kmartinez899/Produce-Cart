@@ -610,11 +610,6 @@ name: "Corn 4ct",
 img: "https://www.kroger.com/product/images/medium/front/0001111018183" 
 },
  {
-id: "broccolifloretskroger",
-name: "Broccoli Florets Kroger",
-img: "https://www.kroger.com/product/images/medium/front/0001111060319" 
-},
- {
 id: "nakedjuicegreenmachine64oz",
 name: "Naked Juice Green Machine 64oz",
 img: "https://www.kroger.com/product/images/medium/front/0008259272064" 
@@ -1488,6 +1483,11 @@ img: "https://www.kroger.com/product/images/medium/front/0001111079550"
 id: "organiccauliflower",
 name: "Organic Cauliflower",
 img: "https://www.kroger.com/product/images/medium/front/0000000094079" 
+},
+ {
+id: "broccolifloretskroger",
+name: "Broccoli Florets Kroger",
+img: "https://www.kroger.com/product/images/medium/front/0001111060319" 
 },
  {
 id: "organicbaggedbroccoli&cauliflower",
