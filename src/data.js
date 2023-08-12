@@ -1918,7 +1918,7 @@ img: "https://www.kroger.com/product/images/medium/front/0000000004034"
 id: "orangehoneydewmelon",
 name: "Orange Honeydew Melon",
 img: "https://www.kroger.com/product/images/medium/front/0000000004327" 
-},
+}
 //  {
 // id: ID,
 // name: itemName,
